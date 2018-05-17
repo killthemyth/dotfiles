@@ -9,9 +9,11 @@ export TERM=xterm-256color
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
+
 POWERLEVEL9K_MODE='awesome-patched'
 ZSH_THEME="powerlevel9k/powerlevel9k"
 NOIDA_HOST="asa-noida-1.adobe.com"
+
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
 # cause zsh load theme from this variable instead of
@@ -97,7 +99,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-
+# Powerlevel theme configuration, Install powerline fonts and Awesome Patched font
 POWERLEVEL9K_SHORTEN_DIR_LENGTH=2
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(os_icon dir vcs)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status ssh time)
@@ -108,10 +110,9 @@ POWERLEVEL9K_DIR_HOME_FOREGROUND="white"
 POWERLEVEL9K_DIR_HOME_SUBFOLDER_FOREGROUND="white"
 POWERLEVEL9K_DIR_DEFAULT_FOREGROUND="white"
 
-alias szshrc="source ~/.zshrc"
+# Install aliasing
 alias install="sudo apt-get install"
 alias update="sudo apt-get update"
-alias hibernate="systemctl suspend" 
 
 # tmux configuration
 alias ntmux="~/.tmux/mytmux.sh"
@@ -125,5 +126,14 @@ alias vpnui='/opt/cisco/anyconnect/bin/vpnui'
 alias -s txt=vim
 alias -s conf=vim
 
-alias shutme="sudo shutdown -r now"
+# Poweroff aliasing
+alias shutdownme="sudo shutdown -r now"
+alias hibernateme="systemctl suspend" 
+alias lockme="gnome-screensaver-command -l"
+alias logoutme="gnome-session-save --force-logout"
+
+# Window navgiation & other aliasing
 alias down="cd ~/Downloads"
+alias home="cd ~"
+alias maas="cd ~/Documents/maasv2"
+alias szshrc="source ~/.zshrc"
