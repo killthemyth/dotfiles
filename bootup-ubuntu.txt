@@ -50,7 +50,8 @@ git clone https://github.com/flazz/vim-colorschemes.git bundle/colorschemes
 
 
 configure firefox
-chrome folder
+
+chrome folder in user profile
 userChrome.css file
 #main-window #PersonalToolbar {
   visibility: collapse !important;
@@ -64,9 +65,7 @@ userChrome.css file
   visibility: visible !important;
 }
 
-
-git config
-    - Change gitconfig
+git changes
 
 configure at startup for slack by going to startup application
     
@@ -92,6 +91,9 @@ ln -s ~/Extra/dotfiles/.vimrc ~/.vimrc
 ln -s ~/Extra/dotfiles/.tmux.conf.local ~/.tmux.conf.local
 ln -s ~/Extra/dotfiles/.zshrc ~/.zshrc
 ln -s ~/Extra/dotfiles/mytmux.sh ~/.tmux/mytmux.sh 
+
+Install the gnome shell extension for firefox, ubuntu tweaks and one more plugin for connector between 
+  firefox and gnome shell and install few top plugins
 
 Docker
 
