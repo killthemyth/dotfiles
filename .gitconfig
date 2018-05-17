@@ -1,0 +1,9 @@
+[core]
+  editor = vim 
+[pager]
+  diff = false
+  branch = false
+  status = false
+[user]
+  email = kkeshri@adobe.com
+  name = Kushal Keshri

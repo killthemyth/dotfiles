@@ -1,0 +1,99 @@
+sudo apt-get update
+sudo apt-get install curl 
+sudo apt-get install zsh
+sudo apt-get install git vim
+Install mate evironment
+Change palete color in ubuntu terminal to solarzied. 
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/killthemyth/oh-my-zsh/master/tools/install.sh)"
+git clone https://github.com/killthemyth/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
+Change configuration in ~/.zshrc to powerlevel9k by replacing line: ZSH_THEME="powerlevel9k/powerlevel9k"
+set default shell to zsh
+Install monaco font
+Download and install following font
+https://github.com/Falkor/dotfiles/blob/master/fonts/SourceCodePro%2BPowerline%2BAwesome%2BRegular.ttf
+sudo apt-get install fonts-powerline
+restart laptop
+
+
+Append at botton of the ~/.zshrc
+POWERLEVEL9K_SHORTEN_DIR_LENGTH=2
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(os_icon dir vcs)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status nvm node_version)
+
+POWERLEVEL9K_OS_ICON_BACKGROUND="white"
+POWERLEVEL9K_OS_ICON_FOREGROUND="blue"
+POWERLEVEL9K_DIR_HOME_FOREGROUND="white"
+POWERLEVEL9K_DIR_HOME_SUBFOLDER_FOREGROUND="white"
+POWERLEVEL9K_DIR_DEFAULT_FOREGROUND="white"
+
+
+sudo apt-get install mate-tweak
+
+Install compiz
+sudo apt-get install compiz compizconfig-settings-manager  compiz-plugins
+Change setting to wobbly windows and shift switcher
+
+sudo add-apt-repository ppa:notepadqq-team/notepadqq
+sudo apt-get update
+sudo apt-get install notepadqq
+
+Configure ubuntu -> install gnome-tweaks-tools, show desktop icon  = false
+Configure ubuntu docks from settings
+
+vim
+Install pathogen plugin
+mkdir -p ~/.vim/autoload ~/.vim/bundle && \
+curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+take .vimrc file
+cd ~/.vim
+git clone https://github.com/flazz/vim-colorschemes.git bundle/colorschemes
+
+
+configure firefox
+chrome folder
+userChrome.css file
+#main-window #PersonalToolbar {
+  visibility: collapse !important;
+}
+
+#main-window[title^="about:newtab"] #PersonalToolbar,
+#main-window[title^="New Tab"] #PersonalToolbar,
+#main-window[title^="Nightly"] #PersonalToolbar,
+#main-window[title^="Mozilla Firefox"] #PersonalToolbar,
+#main-window[title^="Firefox"] #PersonalToolbar {
+  visibility: visible !important;
+}
+
+
+git config
+    - Change gitconfig
+
+configure at startup for slack by going to startup application
+    
+cisco anyconnect : Follow google
+
+Ubuntu keyboard shortcuts
+------------------------------------------------
+Activity + mouse : Jump to any window
+super + `        : Switch betwen same application
+super + A        : Frequent aplication
+super + page up + page down 
+
+Tmux
+https://github.com/killthemyth/dotfiles.git
+follow the link above and check one commit happended
+
+Commit
+Create symbolic link
+https://github.com/killthemyth/dotfiles
+
+ln -s ~/Extra/dotfiles/.gitconfig ~/.gitconfig
+ln -s ~/Extra/dotfiles/.vimrc ~/.vimrc
+ln -s ~/Extra/dotfiles/.tmux.conf.local ~/.tmux.conf.local
+ln -s ~/Extra/dotfiles/.zshrc ~/.zshrc
+ln -s ~/Extra/dotfiles/mytmux.sh ~/.tmux/mytmux.sh 
+
+Docker
+
+Java
+Eclipse
