@@ -131,8 +131,7 @@ alias -s conf=vim
 # Poweroff aliasing
 alias shutdownme="sudo shutdown -r now"
 alias hibernateme="systemctl suspend" 
-alias lockme="gnome-screensaver-command -l"
-alias logoutme="gnome-session-save --force-logout"
+alias logoutme="gnome-session-quit"
 
 # Window navgiation & other aliasing
 alias down="cd ~/Downloads"
