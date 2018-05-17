@@ -117,6 +117,8 @@ alias update="sudo apt-get update"
 # tmux configuration
 alias ntmux="~/.tmux/mytmux.sh"
 alias atmux="tmux a"
+alias stmux="tmux list-session"
+alias wtmux="tmux list-window"
 
 # CISCO VPN
 alias vpn='/opt/cisco/anyconnect/bin/vpn'
@@ -137,3 +139,4 @@ alias down="cd ~/Downloads"
 alias home="cd ~"
 alias maas="cd ~/Documents/maasv2"
 alias szshrc="source ~/.zshrc"
+alias dotfiles="cd ~/Extra/dotfiles"
