@@ -139,3 +139,7 @@ alias home="cd ~"
 alias maas="cd ~/Documents/maasv2"
 alias szshrc="source ~/.zshrc"
 alias dotfiles="cd ~/Extra/dotfiles"
+
+# Command aliasing
+alias ps="ps -aux"
+alias psg="ps -aux | grep "
