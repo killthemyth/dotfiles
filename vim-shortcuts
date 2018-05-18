@@ -1,0 +1,31 @@
+vim Shortcut
+--------------
+
+,nn     : Nerdtree toggle
+,,z     : goyo
+,f      : MRU
+<c f>   : ctrlp
+,o      : Bufexplorer
+,bd     : Close current buffer
+,ba     : Close all the opened buffer
+,w      : Fast saving of the buffer 
+space   : mapped space to search
+,<cr>   : nohlsearch
+,ss     : Spell Check
+
+
+Both in insert mode and visual mode
+vnoremap ( <esc>`>a)<esc>`<i(<esc>
+vnoremap [ <esc>`>a]<esc>`<i[<esc>
+vnoremap { <esc>`>a}<esc>`<i{<esc>
+vnoremap $$ <esc>`>a"<esc>`<i"<esc>
+vnoremap ' <esc>`>a'<esc>`<i'<esc>'}])
+
+
+comment:
+gcc 
+gc with visual mode
+
+Yank
+
+

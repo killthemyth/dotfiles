@@ -1,9 +1,9 @@
 sudo apt-get update
-sudo apt-get install curl 
+sudo apt-get install curl
 sudo apt-get install zsh
 sudo apt-get install git vim
 Install mate evironment
-Change palete color in ubuntu terminal to solarzied. 
+Change palete color in ubuntu terminal to solarzied.
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/killthemyth/oh-my-zsh/master/tools/install.sh)"
 git clone https://github.com/killthemyth/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
 Change configuration in ~/.zshrc to powerlevel9k by replacing line: ZSH_THEME="powerlevel9k/powerlevel9k"
@@ -41,12 +41,9 @@ Configure ubuntu -> install gnome-tweaks-tools, show desktop icon  = false
 Configure ubuntu docks from settings
 
 vim
-Install pathogen plugin
-mkdir -p ~/.vim/autoload ~/.vim/bundle && \
-curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
-take .vimrc file
-cd ~/.vim
-git clone https://github.com/flazz/vim-colorschemes.git bundle/colorschemes
+
+git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime
+sh ~/.vim_runtime/install_awesome_vimrc.sh
 
 
 configure firefox
@@ -68,7 +65,7 @@ userChrome.css file
 git changes
 
 configure at startup for slack by going to startup application
-    
+
 cisco anyconnect : Follow google
 
 Ubuntu keyboard shortcuts
@@ -76,7 +73,7 @@ Ubuntu keyboard shortcuts
 Activity + mouse : Jump to any window
 super + `        : Switch betwen same application
 super + A        : Frequent aplication
-super + page up + page down 
+super + page up + page down
 
 Tmux
 https://github.com/killthemyth/dotfiles.git
@@ -87,12 +84,13 @@ Create symbolic link
 https://github.com/killthemyth/dotfiles
 
 ln -s ~/Extra/dotfiles/.gitconfig ~/.gitconfig
-ln -s ~/Extra/dotfiles/.vimrc ~/.vimrc
+# ln -s ~/Extra/dotfiles/.vimrc ~/.vimrc
 ln -s ~/Extra/dotfiles/.tmux.conf.local ~/.tmux.conf.local
 ln -s ~/Extra/dotfiles/.zshrc ~/.zshrc
-ln -s ~/Extra/dotfiles/mytmux.sh ~/.tmux/mytmux.sh 
+ln -s ~/Extra/dotfiles/mytmux.sh ~/.tmux/mytmux.sh
+ln -s   ~/Extra/dotfiles/my_configs.vim my_configs.vim
 
-Install the gnome shell extension for firefox, ubuntu tweaks and one more plugin for connector between 
+Install the gnome shell extension for firefox, ubuntu tweaks and one more plugin for connector between
   firefox and gnome shell and install few top plugins
 
 Docker
