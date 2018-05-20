@@ -129,7 +129,7 @@ alias -s txt=vim
 alias -s conf=vim
 
 # Poweroff aliasing
-alias shutdownme="sudo shutdown -r now"
+alias restartme="sudo shutdown -r now"
 alias hibernateme="systemctl suspend" 
 alias logoutme="gnome-session-quit"
 
