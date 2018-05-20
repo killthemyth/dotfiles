@@ -137,6 +137,7 @@ alias logoutme="gnome-session-quit"
 alias down="cd ~/Downloads"
 alias home="cd ~"
 alias maas="cd ~/Documents/maasv2"
+alias toproject="cd ~/Documents/maasv2"
 alias szshrc="source ~/.zshrc"
 alias dotfiles="cd ~/Extra/dotfiles"
 
