@@ -1,3 +1,4 @@
+ set nu
  set pastetoggle=<F2>
  colorscheme morning
 
