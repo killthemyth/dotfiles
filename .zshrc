@@ -4,7 +4,7 @@
 export TERM=xterm-256color
 
 # Path to your oh-my-zsh installation.
-  export ZSH=/home/kkeshri/.oh-my-zsh
+export ZSH=/home/kkeshri/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -12,7 +12,6 @@ export TERM=xterm-256color
 
 POWERLEVEL9K_MODE='awesome-patched'
 ZSH_THEME="powerlevel9k/powerlevel9k"
-NOIDA_HOST="asa-noida-1.adobe.com"
 
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
@@ -126,6 +125,8 @@ alias wtmux="tmux list-window"
 # CISCO VPN
 alias vpn='/opt/cisco/anyconnect/bin/vpn'
 alias vpnui='/opt/cisco/anyconnect/bin/vpnui'
+alias noida_hostname='asa-noida-1.adobe.com'
+alias ubuntu-office='ssh kkeshri@10.41.51.121'
 
 # Opening file.txt without writing vim
 alias -s txt=vim
