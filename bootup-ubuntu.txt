@@ -97,3 +97,5 @@ Docker
 
 Java
 Eclipse
+
+Install the subtitles downloader at: https://github.com/emericg/OpenSubtitlesDownload
