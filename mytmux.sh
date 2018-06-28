@@ -12,6 +12,8 @@ session="work"
 # set up tmux
 tmux start-server
 
+# clipboard settings
+tmux set-option -g set-clipboard on
 # create a new tmux session, starting vim from a saved session in the new window
 tmux new-session -d -s $session -n vim #"vim -S ~/.vim/sessions/kittybusiness"
 

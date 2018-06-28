@@ -1,9 +1,12 @@
 [core]
-  editor = vim 
+  editor = vim
 [pager]
   diff = false
   branch = false
   status = false
+  show = false
 [user]
   email = kkeshri@adobe.com
-  name = Kushal Keshri
+  name = kkeshri
+[alias]
+  co = checkout

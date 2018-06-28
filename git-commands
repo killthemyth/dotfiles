@@ -1,0 +1,19 @@
+git push orign --delete <remote_name>
+
+
+
+
+
+Normal
+-------
+
+
+Increase CPU
+------------
+ yes > /dev/null &
+ killall yes
+
+
+Vault Password
+---------------
+Password: tpHIhZ0f5SgR

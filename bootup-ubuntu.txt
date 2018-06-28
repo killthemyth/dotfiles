@@ -99,3 +99,20 @@ Java
 Eclipse
 
 Install the subtitles downloader at: https://github.com/emericg/OpenSubtitlesDownload
+
+
+
+
+
+Synergy:
+
+
+Github: https://github.com/symless/synergy-core/wiki/Compiling
+Compiling command:
+1. Clone the repo and compile without installing the
+create synergy.conf file in build/bin directory
+Server config
+/home/kkeshri/Extra/synergy-core/build/bin/synergy-core --server --config /home/kkeshri/Extra/synergy-core/build/bin/synergy.conf
+
+Client: ./synergy-core --client 10.41.120.182
+

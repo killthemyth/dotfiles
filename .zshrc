@@ -125,7 +125,7 @@ alias wtmux="tmux list-window"
 # CISCO VPN
 alias vpn='/opt/cisco/anyconnect/bin/vpn'
 alias vpnui='/opt/cisco/anyconnect/bin/vpnui'
-alias noida_hostname='asa-noida-1.adobe.com'
+alias noida_hostname=' asa-noida-1.adobe.com '
 alias ubuntu-office='ssh kkeshri@10.41.51.121'
 
 # Opening file.txt without writing vim
@@ -140,11 +140,14 @@ alias logoutme="gnome-session-quit"
 # Window navgiation & other aliasing
 alias down="cd ~/Downloads"
 alias home="cd ~"
-alias maas="cd ~/Documents/maasv2"
-alias toproject="cd ~/Documents/maasv2"
+alias maas="cd ~/Documents/maasv2/maas/"
+alias toproject="cd ~/Documents/maasv2/maas/"
 alias szshrc="source ~/.zshrc"
 alias dotfiles="cd ~/Extra/dotfiles"
 
 # Command aliasing
 alias ps="ps -aux"
 alias psg="ps -aux | grep "
+
+alias repoupdate="git fetch upstream && git merge upstream/master master && git rebase upstream/master"
+alias youtube="youtube-dl -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4'"

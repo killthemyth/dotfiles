@@ -29,3 +29,7 @@ gc with visual mode
 Yank
 
 
+tmux:
+------------
+
+rename  :   <ca> + ,

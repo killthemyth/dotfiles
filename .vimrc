@@ -5,7 +5,7 @@ set incsearch ignorecase hlsearch
 set nowrap	        " no wrap long lines
 set autoindent	    " indent at the same level of the previous line
 set shiftwidth=2    " use indents of 2 spaces
-set sw=2 ts=2 tabstop=2 softtabstop=2 nosmarttab expandtab
+set sw=2 ts=2 tabstop=2 softtabstop=2 nosmarttab noexpandtab
 
 " This unsets the last search pattern register by hitting return
 nnoremap <CR> :noh<CR><CR>
