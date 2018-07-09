@@ -10,3 +10,4 @@
   name = kkeshri
 [alias]
   co = checkout
+  st = status

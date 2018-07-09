@@ -116,6 +116,14 @@ POWERLEVEL9K_DIR_DEFAULT_FOREGROUND="white"
 alias install="sudo apt-get install"
 alias update="sudo apt-get update"
 
+# Subtitle downloader
+alias subquick="python /home/kkeshri/Extra/subtitle-downloader/subtitles.py ./ "
+alias subslow="subliminal download -l en "
+
+if command -v tmux>/dev/null; then
+  [[ ! $TERM =~ screen ]] && [ -z $TMUX ] && exec ~/.tmux/mytmux.sh
+fi
+
 # tmux configuration
 alias ntmux="~/.tmux/mytmux.sh"
 alias atmux="tmux a"
@@ -151,3 +159,5 @@ alias psg="ps -aux | grep "
 
 alias repoupdate="git fetch upstream && git merge upstream/master master && git rebase upstream/master"
 alias youtube="youtube-dl -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4'"
+alias synergy-server="/home/kkeshri/Extra/synergy-core/build/bin/synergy-core --server --config /home/kkeshri/Extra/synergy-core/build/bin/synergy.conf"
+alias synergyclient="cd /home/kkeshri/Extra/synergy-core/build/bin && ./synergy-core --client 10.41.120.182 &"
