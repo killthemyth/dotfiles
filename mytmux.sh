@@ -12,6 +12,9 @@ session="work"
 # set up tmux
 tmux start-server
 
+tmux set-option default-path "~/Downloads"
+
+
 # clipboard settings
 tmux set-option -g set-clipboard on
 # create a new tmux session, starting vim from a saved session in the new window
@@ -19,7 +22,7 @@ tmux new-session -d -s $session -n vim #"vim -S ~/.vim/sessions/kittybusiness"
 
 # Select pane 1, set dir to api, run vim
 tmux selectp -t 1
-tmux send-keys "api;vim" C-m
+tmux send-keys "vim" C-m
 
 # create a new window called scratch
 #tmux new-window -t $session:1 -n scratch

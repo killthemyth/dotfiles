@@ -149,9 +149,10 @@ alias logoutme="gnome-session-quit"
 alias down="cd ~/Downloads"
 alias home="cd ~"
 alias maas="cd ~/Documents/maasv2/maas/"
-alias toproject="cd ~/Documents/maasv2/maas/"
+alias toproject="cd ~/Documents/maasv2/"
 alias szshrc="source ~/.zshrc"
 alias dotfiles="cd ~/Extra/dotfiles"
+alias znotes='cd /home/kkeshri/Documents/maasv2/documents/notes'
 
 # Command aliasing
 alias ps="ps -aux"
@@ -161,3 +162,15 @@ alias repoupdate="git fetch upstream && git merge upstream/master master && git 
 alias youtube="youtube-dl -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4'"
 alias synergy-server="/home/kkeshri/Extra/synergy-core/build/bin/synergy-core --server --config /home/kkeshri/Extra/synergy-core/build/bin/synergy.conf"
 alias synergyclient="cd /home/kkeshri/Extra/synergy-core/build/bin && ./synergy-core --client 10.41.120.182 &"
+
+# docker aliasing
+
+alias zdockps='docker ps --format "table {{.ID}}\t{{.Image}}\t{{.Status}}\t{{.Names}}"'
+alias zdockpsa='docker ps -a --format "table {{.ID}}\t{{.Image}}\t{{.Status}}\t{{.Names}}"'
+alias zdockrmallexitedcontainer='docker rm $(docker ps -a -f status=exited -q)'
+
+alias zmongodb='mongo -u "user_local" -p "user_passwd" 10.41.120.182  --authenticationDatabase "admin"'
+alias zpublicip='dig +short myip.opendns.com @resolver1.opendns.com'
+
+# size of all recursive directory - top 10
+alias zdirsize='du -hsx * | sort -rh | head -10'

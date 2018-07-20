@@ -18,3 +18,5 @@
  hi Search cterm=NONE ctermfg=grey ctermbg=blue
 
  set nofoldenable
+ set list
+ set listchars=tab:>-
