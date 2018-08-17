@@ -116,3 +116,12 @@ Server config
 
 Client: ./synergy-core --client 10.41.120.182
 
+
+
+Transmision:
+-----------
+Transmission-guide: https://help.ubuntu.com/community/TransmissionHowTo
+configuration file: sudo vim /var/lib/transmission-daemon/info/settings.json
+cleantup script: located in same folder with purge in it, make it executable
+clean purge file: https://community.wd.com/t/guide-auto-removal-of-downloads-from-transmission-2-82/93156/5
+clean purge cron: https://gist.github.com/pawelszydlo/e2e1fc424f2c9d306f3a
