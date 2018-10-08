@@ -1,6 +1,7 @@
  set nu
  set pastetoggle=<F2>
- colorscheme morning
+ set background=light
+ colorscheme PaperColor
 
  "Mapping in insert mode
  imap jj <Esc>

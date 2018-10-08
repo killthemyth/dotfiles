@@ -174,3 +174,17 @@ alias zpublicip='dig +short myip.opendns.com @resolver1.opendns.com'
 
 # size of all recursive directory - top 10
 alias zdirsize='du -hsx * | sort -rh | head -10'
+
+
+# Azure configuration
+alias zsshzk='ssh maasdev@104.209.172.255'
+alias zsshkafka='ssh maasdev@104.209.145.203'
+alias zsshmonitoring='ssh maasdev@104.208.142.249'
+alias zsshmongo='ssh maas-dev@104.209.156.10'
+
+
+# home configuration for NAS
+alias anussh='ssh anu@192.168.0.105'
+
+# adding /opt in path for vault
+export PATH=/opt:$PATH
