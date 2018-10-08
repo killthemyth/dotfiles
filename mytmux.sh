@@ -27,7 +27,7 @@ tmux send-keys "vim" C-m
 # create a new window called scratch
 #tmux new-window -t $session:1 -n scratch
 tmux new-window -t $session:2 -n docker
-tmux new-window -t $session:3 -n docker
+tmux new-window -t $session:3 -n code
 
 # return to main vim window
 tmux select-window -t $session:0
